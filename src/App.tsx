@@ -5,6 +5,10 @@ import styles from './App.module.scss';
 
 const router = createBrowserRouter([
   {
+    path: "/",
+    element: <Search />,
+  },
+  {
     path: "avia",
     element: <Search />,
   },
