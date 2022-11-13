@@ -22,7 +22,7 @@ const Search = (): JSX.Element => {
       there: dateThereInput,
       back: dateBackInput === '' ? null : dateBackInput
     }));
-    navigate('info');
+    navigate('/avia/info');
   };
 
   return (
