@@ -1,0 +1,20 @@
+.card {
+	width: 980px;
+	box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+	border-radius: 15px;
+	display: flex;
+}
+
+.price {
+	display: flex;
+	padding: 0 5px;
+	justify-content: center;
+	align-items: center;
+	flex-grow: 1;
+	flex-shrink: 0;
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 38px;
+	text-align: center;
+	color: #232323;
+}

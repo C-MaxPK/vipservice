@@ -1,0 +1,82 @@
+.form {
+  width: 963px;
+  color: #FFFFFF;
+
+  &__inputs {
+    background: #5C87DB;
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 17px 0 30px;
+  }
+
+  &__inputWrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+  }
+
+  &__label {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  &__input {
+    width: 208px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 0 12px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5C5C5C;
+    border: 1px solid #B7BAC1;
+    outline: none;
+
+    &::placeholder {
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 16px;
+      color: #B7BAC1;
+    }
+
+    &:focus {
+      border: 1px solid #5C87DB;
+      box-shadow: 0px 0px 2px rgba(92, 135, 219, 0.5);
+    }
+  }
+
+  &__btnField {
+    text-align: right;
+    padding: 23px 29px;
+    box-shadow: 0px 0px 14px rgba(112, 121, 153, 0.3);
+    border-radius: 0px 0px 15px 15px;
+  }
+
+  &__btn {
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    background: #5C87DB;
+    border-radius: 10px;
+    border: none;
+    width: 158px;
+    height: 40px;
+    cursor: pointer;
+
+    &:hover {
+      background: #3E67B7;
+    }
+
+    &:active {
+      color: rgba(255, 255, 255, 0.5);
+    }
+
+    &:disabled {
+      background: #B7BAC1;
+      cursor: no-drop;
+    }
+  }
+}
